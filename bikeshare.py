@@ -238,7 +238,7 @@ def main():
                 data_loop_count += 1
                 show_data = input('\nWould you like to see some more raw data? Enter yes or no.\n')
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to do a different analysis? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
